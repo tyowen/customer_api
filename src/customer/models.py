@@ -1,6 +1,7 @@
 from django.db.models import Model, UUIDField, CharField, EmailField
 from uuid import uuid4
 
+
 class Customer(Model):
     id = UUIDField(primary_key=True, default=uuid4, editable=False)
     first_name = CharField(max_length=100)

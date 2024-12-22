@@ -17,11 +17,17 @@ The API is designed using the following technologies:
 - Python 3.13
 - Docker
 
+### Install Dependencies
+`pip install -r requirements.dev.txt`
+
 ### Start PostgreSQL Locally
 `docker compose up db -d`
 
 ### Start the API
 `python src/manage.py runserver`
+
+### Run Linting
+`ruff format`
 
 ## Dev Notes:
 
