@@ -27,7 +27,7 @@ The API is designed using the following technologies:
 `python src/manage.py runserver`
 
 ### Run Linting
-`ruff format`
+`ruff check --fix`
 
 ## Dev Notes:
 
