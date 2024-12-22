@@ -52,3 +52,4 @@ In case I do not have enough time to implement
 - LOGGING settings in `settings.py` need to be hooked to a logging service.
 - Optimize Dockerfile for production use. ex. use multi-stage builds, use a smaller base image, disable cache, etc.
 - Add environment variables to be loaded from secret store in helm
+- Separate CI/CD pipeline into modules and create proper rules
