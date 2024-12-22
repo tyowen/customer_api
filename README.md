@@ -33,6 +33,9 @@ The API is designed using the following technologies:
 ### Run Linting
 `ruff check --fix`
 
+### Run Unit Tests
+`pytest`
+
 ## Dev Notes:
 
 - To keep the workflow simple, commits are made directly to the main branch. In real-world scenarios, feature branches would be created and merged into the main branch via pull requests.
@@ -42,3 +45,4 @@ The API is designed using the following technologies:
 In case I do not have enough time to implement
 
 - Add pre-commit hooks to run linting and formatting before committing code.
+- Add unit test coverage report
