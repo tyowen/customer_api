@@ -16,6 +16,10 @@ The API is designed using the following technologies:
 
 - Python 3.13
 - Docker
+- direnv
+
+### Manage local environment using direnv
+`cp .env.local .env`
 
 ### Install Dependencies
 `pip install -r requirements.dev.txt`
