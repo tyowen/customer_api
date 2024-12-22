@@ -1,5 +1,6 @@
-from django.db.models import Model, UUIDField, CharField, EmailField
 from uuid import uuid4
+
+from django.db.models import CharField, EmailField, Model, UUIDField
 from rest_framework.serializers import ModelSerializer
 
 
