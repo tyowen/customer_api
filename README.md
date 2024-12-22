@@ -10,6 +10,11 @@ The API is designed using the following technologies:
 - Django Rest Framework: This library was used to create the API endpoints and serialize the data.
 - PostgreSQL: The database used to store the customer data.
 
+## Development
+
+### Start the API
+`python src/manage.py runserver`
+
 ## Dev Notes:
 
 - To keep the workflow simple, commits are made directly to the main branch. In real-world scenarios, feature branches would be created and merged into the main branch via pull requests.
