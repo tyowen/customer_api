@@ -1,5 +1,6 @@
 from django.db.models import Model, UUIDField, CharField, EmailField
 from uuid import uuid4
+from rest_framework.serializers import ModelSerializer
 
 
 class Customer(Model):
@@ -9,3 +10,9 @@ class Customer(Model):
     last_name = CharField(max_length=100)
     email = EmailField(unique=True)
     phone_number = CharField(max_length=20, null=True, blank=True)
+
+
+class CustomerSerializer(ModelSerializer):
+    class Meta:
+        model = Customer
+        fields = "__all__"
