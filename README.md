@@ -12,6 +12,14 @@ The API is designed using the following technologies:
 
 ## Development
 
+### Pre-requisites
+
+- Python 3.13
+- Docker
+
+### Start PostgreSQL Locally
+`docker compose up db -d`
+
 ### Start the API
 `python src/manage.py runserver`
 
