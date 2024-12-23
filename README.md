@@ -44,6 +44,15 @@ The API is designed using the following technologies:
 - To keep the workflow simple, commits are made directly to the main branch. In real-world scenarios, feature branches would be created and merged into the main branch via pull requests.
 - Database settings are hardcoded in the settings.py file. In a production environment, these settings would be stored in environment variables and pointed to the appropriate database.
 
+## Cli Client
+
+### Install Dependencies
+`pip install -r api_client/requirements.txt`
+
+### Run Cli
+`python api_client/client.py --help`
+
+
 ## TODO:
 In case I do not have enough time to implement
 
